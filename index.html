@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+
+
+      
+    body {
+      font-family: 'Lato', sans-serif;
+    }
+    
+    .overlay {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: rgb(0,0,0);
+      background-color: rgba(0,0,0, 0.9);
+      overflow-x: hidden;
+      transition: 0.5s;
+    }
+    
+    .overlay-content {
+      position: relative;
+      top: 25%;
+      width: 100%;
+      text-align: center;
+      margin-top: 30px;
+    }
+    
+    .overlay a {
+      padding: 8px;
+      text-decoration: none;
+      font-size: 36px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+    }
+    
+    .overlay a:hover, .overlay a:focus {
+      color: #f1f1f1;
+    }
+    
+    .overlay .closebtn {
+      position: absolute;
+      top: 20px;
+      right: 45px;
+      font-size: 60px;
+    }
+    
+    @media screen and (max-height: 450px) {
+      .overlay a {font-size: 20px}
+      .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+      }
+    }
+    </style>
+    </head>
+    <body>
+    
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">pasta1</a>
+        <a href="#">pasta2</a>
+        <a href="#">pasta3</a>
+        <a href="#">pasta4</a>
+      </div>
+    </div>
+    
+    
+    
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Pastat</span>
+
+
+    <div id="myNav" class="overlay">
+        <a1 href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a1>
+        <div class="overlay-content">
+          <a1 href="#">1</a1>
+          <a1 href="#">2</a1>
+          <a1 href="#">3</a1>
+          <a1 href="#">4</a1>
+        </div>
+      </div>
+
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Pizzat</span>
+
+    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Burgerit</span>
+    
+    <script>
+    function openNav() {
+      document.getElementById("myNav").style.width = "100%";
+    }
+    
+    function closeNav() {
+      document.getElementById("myNav").style.width = "0%";
+    }
+    </script>
+         
+    </body>
+    </html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         
+        .wrapper{
+            margin:auto;
+            width:70%;
+        }
+        .topmenu {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: flex-end ;
+            margin: 0;
+            background-color: yellowgreen;
+        }
+        .topmenu >li{
+            list-style: none;
+            padding: lem;
+            color:dimgray ;
+        }
+
+        .flexgrowcon{
+            display: flex;
+            align-items: stretch;
+        }
+        leftbar,rightbar {
+            background-color: yellowgreen;
+
+        }
+       
+
+    </style>
+
+</head>
+
+
+
+<video autoplay muted loop id="myVideo">
+  <source src="vid1.mp4" type="video/mp4">
+</video>
+
+<!-- Optional: some overlay text to describe the video -->
+<div class="content">
+  <h1>Heading</h1>
+  <p>Lorem ipsum...</p>
+  <!-- Use a button to pause/play the video with JavaScript -->
+  <button id="myBtn" onclick="myFunction()">Pause</button>
+</div>
+
+<body bgcolor="grey"> 
+    <div ckass="wrapper">
+        <header>
+<ul class="topmenu">
+    <li><a href="http://www.twitch.tv/miggizzz/"style="font-family: inherit; font-size: 30px; text-align: center;">MY TWITCH</a></li>
+</ul>
+        </header>
+    <div class="flexgrowcon">
+        <leftbar style="flex-grow: 1;">
+            <p><h1 style="font-size: 20px; text-align: center;">Eemil</h1></p>
+        </leftbar>
+
+        <content style="flex-grow: 6;">
+            <p><h1 style="color: yellowgreen; font-family: inherit; font-size: 30px; text-align: center;">Eemilin ja Novan fanisivu.</h1></p>
+            
+            <img src="imagess/kuva1.png" width="300" height="300">
+            <img src="imagess/kuva2.png" width="350" height="300">
+            <img src="imagess/kuva3.jpeg" width="200" height="300">
+            <video src="imagess/video1.mp4" controls width="400" height="300" autoplay loop muted>
+        </content>
+        <rightbar style="flex-grow: 1;">
+        <p><h1 style="font-size: 20px; text-align: center;">Nova</h1></p>
+    </rightbar>
+    </div>
+    <footer style="font-size: 20px; text-align: center;">Hello world! This is my bestest frend!</footer>
+    <footer style="font-size: 100px; text-align: center;">NOVA ON KOVA</footer>
+</div>
+
+<li><a href="https://Eemilmi.github.io/new2/index2.html">ezz</a></li>
+            </ul>
+
+
+
+</body>
+</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
+</div>
+
+<h2>Fullscreen Overlay Nav Example</h2>
+<p>Click on the element below to open the fullscreen overlay navigation menu.</p>
+<p>In this example, the navigation menu will slide in, from left to right:</p>
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; open</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  font-family: 'Lato', sans-serif;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 25%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
+</style>
+</head>
+<body>
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content">
+    <a href="#">At</a>
+    <a href="#">Sces</a>
+    <a href="#">Cents</a>
+    <a href="#">tact</a>
+  </div>
+</div>
+
+
+<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; 55</span>
+
+<script>
+function openNav() {
+  document.getElementById("myNav").style.width = "100%";
+}
+
+function closeNav() {
+  document.getElementById("myNav").style.width = "0%";
+}
+</script>
+     
+</body>
+</html>
